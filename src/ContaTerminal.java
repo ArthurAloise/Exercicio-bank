@@ -5,8 +5,7 @@ public class ContaTerminal {
         Scanner scan = new Scanner(System.in);
 
         System.out.println("Por favor, digite o número da Agência! ");
-        int numeroAgencia = scan.nextInt()
-                ;
+        int numeroAgencia = scan.nextInt();
         String agencia = "067-8";
         double saldo = 200d;
         String nomeCliente = "MARIO ANDRADE";
